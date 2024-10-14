@@ -41,16 +41,15 @@ vendor/etc/camera/s5k5e8_chromatix.xml|a082b4d7d5d31ffcd750683befc48e70edba5722
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin|1ca031d5f8eb0e6aa3eedf7df8d53223b5054bc5
 
 # Camera
-vendor/lib/hw/camera.sdm660.so|41bb59a592607edbdb71b57de1c58b24c25faab1
-vendor/lib/libFaceGrade.so
+vendor/lib/hw/camera.sdm660.so;DISABLE_CHECKELF|41bb59a592607edbdb71b57de1c58b24c25faab1
+vendor/lib/libFaceGrade.so;DISABLE_CHECKELF
 vendor/lib/libXMFD_AgeGender.so
-vendor/lib/lib_lowlight.so
+vendor/lib/lib_lowlight.so;DISABLE_CHECKELF
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_high_dynamic_range.so
-#vendor/lib/libcdsprpc.so
-vendor/lib/libchromaflash.so
+vendor/lib/libchromaflash.so;DISABLE_CHECKELF
 vendor/lib/libdepthmapwrapper.so
-vendor/lib/libdualcameraddm.so
+vendor/lib/libdualcameraddm.so;DISABLE_CHECKELF
 vendor/lib/libflash_pmic.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
@@ -58,43 +57,42 @@ vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmm-qcamera.so
 vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_cpp_module.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera2_is.so
-vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_iface_modules.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera2_imglib_modules.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera2_is.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera2_isp_modules.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera2_mct.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera2_mct_shimlayer.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
 vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera2_q3a_core.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_lib.so
-vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera2_q3a_core.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera2_sensor_modules.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera2_stats_algorithm.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera2_stats_lib.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera2_stats_modules.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_chromaflash_lib.so
-vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_facedetection_lib.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_faceproc2.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_hdr_gb_lib.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_hvx_add_constant.so
 vendor/lib/libmmcamera_hvx_grid_sum.so
-vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
-vendor/lib/libmmcamera_interface.so
-vendor/lib/libmmcamera_llvd.so
+vendor/lib/libmmcamera_imglib.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_imglib_faceproc_adspstub.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_interface.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_llvd.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_paaf_lib.so
-vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_pdafcamif.so
+vendor/lib/libmmcamera_pdaf.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_pdafcamif.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_ppeiscore.so
+vendor/lib/libmmcamera_ppeiscore.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_stillmore_lib.so
 vendor/lib/libmmcamera_sw2d_lib.so
@@ -105,7 +103,7 @@ vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmjpeg_interface.so
+vendor/lib/libmmjpeg_interface.so;DISABLE_CHECKELF
 vendor/lib/libmmlib2d_interface.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
@@ -117,57 +115,55 @@ vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libscveBlobDescriptor.so
-vendor/lib/libscveBlobDescriptor_stub.so
-vendor/lib/libscveCommon.so
-vendor/lib/libscveCommon_stub.so
+vendor/lib/libscveBlobDescriptor_stub.so;DISABLE_CHECKELF
+vendor/lib/libscveCommon.so;DISABLE_CHECKELF
+vendor/lib/libscveCommon_stub.so;DISABLE_CHECKELF
 vendor/lib/libscveFaceLandmarks.so
-vendor/lib/libscveFaceLandmarks_stub.so
-vendor/lib/libscveFaceRecognition.so
-vendor/lib/libscveImageCorrection.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib/libscvePanorama.so
-vendor/lib/libscvePanorama_lite.so
-vendor/lib/libseemore.so
+vendor/lib/libscveFaceLandmarks_stub.so;DISABLE_CHECKELF
+vendor/lib/libscveFaceRecognition.so;DISABLE_CHECKELF
+vendor/lib/libscveImageCorrection.so;DISABLE_CHECKELF
+vendor/lib/libscveObjectSegmentation.so;DISABLE_CHECKELF
+vendor/lib/libscveObjectTracker.so;DISABLE_CHECKELF
+vendor/lib/libscveObjectTracker_stub.so;DISABLE_CHECKELF
+vendor/lib/libscvePanorama.so;DISABLE_CHECKELF
+vendor/lib/libscvePanorama_lite.so;DISABLE_CHECKELF
+vendor/lib/libseemore.so;DISABLE_CHECKELF
 vendor/lib/libtrueportrait.so
-vendor/lib/libts_detected_face_hal.so
-vendor/lib/libts_face_beautify_hal.so
+vendor/lib/libts_detected_face_hal.so;DISABLE_CHECKELF
+vendor/lib/libts_face_beautify_hal.so;DISABLE_CHECKELF
 vendor/lib/libubifocus.so
-vendor/lib/libvideobokeh.so
+vendor/lib/libvideobokeh.so;DISABLE_CHECKELF
 vendor/lib/libvideoutils.so
-#vendor/lib64/libcdsprpc.so
-vendor/lib64/libchromaflash.so
-vendor/lib64/libdualcameraddm.so
+vendor/lib64/libchromaflash.so;DISABLE_CHECKELF
+vendor/lib64/libdualcameraddm.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera2_frame_algorithm.so
-vendor/lib64/libmmcamera2_is.so
-vendor/lib64/libmmcamera2_q3a_core.so
-vendor/lib64/libmmcamera2_stats_algorithm.so
-vendor/lib64/libmmcamera2_stats_lib.so
-vendor/lib64/libmmcamera_dbg.so
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
+vendor/lib64/libmmcamera2_is.so;DISABLE_CHECKELF
+vendor/lib64/libmmcamera2_q3a_core.so;DISABLE_CHECKELF
+vendor/lib64/libmmcamera2_stats_algorithm.so;DISABLE_CHECKELF
+vendor/lib64/libmmcamera2_stats_lib.so;DISABLE_CHECKELF
+vendor/lib64/libmmcamera_faceproc.so;DISABLE_CHECKELF
+vendor/lib64/libmmcamera_faceproc2.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/liboptizoom.so
 vendor/lib64/libscveBlobDescriptor.so
-vendor/lib64/libscveBlobDescriptor_stub.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
+vendor/lib64/libscveBlobDescriptor_stub.so;DISABLE_CHECKELF
+vendor/lib64/libscveCommon.so;DISABLE_CHECKELF
+vendor/lib64/libscveCommon_stub.so;DISABLE_CHECKELF
 vendor/lib64/libscveFaceLandmarks.so
-vendor/lib64/libscveFaceLandmarks_stub.so
-vendor/lib64/libscveFaceRecognition.so
-vendor/lib64/libscveImageCorrection.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/libscvePanorama.so
-vendor/lib64/libscvePanorama_lite.so
-vendor/lib64/libseemore.so
-vendor/lib64/libts_detected_face_hal.so
-vendor/lib64/libts_face_beautify_hal.so
+vendor/lib64/libscveFaceLandmarks_stub.so;DISABLE_CHECKELF
+vendor/lib64/libscveFaceRecognition.so;DISABLE_CHECKELF
+vendor/lib64/libscveImageCorrection.so;DISABLE_CHECKELF
+vendor/lib64/libscveObjectSegmentation.so;DISABLE_CHECKELF
+vendor/lib64/libscveObjectTracker.so;DISABLE_CHECKELF
+vendor/lib64/libscveObjectTracker_stub.so;DISABLE_CHECKELF
+vendor/lib64/libscvePanorama.so;DISABLE_CHECKELF
+vendor/lib64/libscvePanorama_lite.so;DISABLE_CHECKELF
+vendor/lib64/libseemore.so;DISABLE_CHECKELF
+vendor/lib64/libts_detected_face_hal.so;DISABLE_CHECKELF
+vendor/lib64/libts_face_beautify_hal.so;DISABLE_CHECKELF
 vendor/lib64/libubifocus.so
-vendor/lib64/libvideobokeh.so
+#vendor/lib64/libvideobokeh.so;DISABLE_CHECKELF
 vendor/lib64/libvideoutils.so
 
 # Camera actuators - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
@@ -303,8 +299,8 @@ vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 vendor/lib/libois_bu63165.so|77752254701047e7cc46121fd726bd0d9856799d
 vendor/lib/libois_lc898122.so|8b2933f549dcfefb6f438c12f6826aca2ddc2fc6
 
-# Camera sensors
-vendor/lib/libmmcamera_bokeh.so
+# Camera sensors - from clover
+vendor/lib/libmmcamera_bokeh.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_csidtg.so
 vendor/lib/libmmcamera_depth_map.so
 vendor/lib/libmmcamera_dw9761b_2d_eeprom.so
@@ -360,13 +356,13 @@ vendor/etc/qdcm_calib_data_NT51021_BOE_BOE10.xml|16f45a1a2c1428333af539e12478288
 # Fingerprint sensor - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
 vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
 vendor/app/QFingerprintService/QFingerprintService.apk
-vendor/bin/qfp-daemon
+vendor/bin/qfp-daemon;DISABLE_CHECKELF
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
-vendor/lib64/libqfp-service.so
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so;DISABLE_CHECKELF
+vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so;DISABLE_CHECKELF
+vendor/lib64/libqfp-service.so;DISABLE_CHECKELF
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so;DISABLE_CHECKELF
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -390,21 +386,13 @@ vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
 
 # Keystore - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-vendor/lib/hw/keystore.sdm660.so
-vendor/lib64/hw/keystore.sdm660.so
+vendor/lib/hw/keystore.sdm660.so;DISABLE_CHECKELF
+vendor/lib64/hw/keystore.sdm660.so;DISABLE_CHECKELF
 
 # Sensors - from LA.UM.8.2.r1-07500-sdm660.0
-vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|92142d25b6eaf6976e17e726ab70536534648459
-vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|a6486bb8506902bbe2a4b743000e3e91ab93246a
 vendor/bin/sensors.qti|b0e298dfa67ca3e5910de2b281f9db285c2b1da3
 vendor/lib/hw/activity_recognition.sdm660.so|47c588e1bdb357f31721171dc1d6a781c743bd64
 vendor/lib/libsensor1.so|b1b0dcb45432e51fabffe595010f35a017c7a3fd
@@ -436,9 +424,7 @@ vendor/etc/thermal-engine.conf
 
 # Thermal - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
 vendor/bin/thermal-engine|0be3686204fc600f8dd8607fff10cd7fd273186e
-vendor/lib/libthermalclient.so|d5c6c82b15423e95e991d757bab1b4a27fb88848
 vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
-vendor/lib64/libthermalclient.so|3412ce67da6a58d7f44a65e6b8af8cc5bfb9f506
 vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
 vendor/lib64/libthermalioctl.so|7c7a784d8ead3d932d164cfc953b09e621060d90
 
