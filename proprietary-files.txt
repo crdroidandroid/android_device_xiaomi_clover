@@ -356,7 +356,7 @@ vendor/etc/qdcm_calib_data_NT51021_BOE_BOE10.xml|16f45a1a2c1428333af539e12478288
 # Fingerprint sensor - from clover-user 8.1.0 OPM1.171019.019 9.8.29 release-keys
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
-vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Gatekeeper
