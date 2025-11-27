@@ -353,16 +353,11 @@ vendor/lib/libmmcamera_isp_sub_module.so
 vendor/etc/qdcm_calib_data_NT51021_BOE_BOE.xml|16f45a1a2c1428333af539e12478288826bf0c00
 vendor/etc/qdcm_calib_data_NT51021_BOE_BOE10.xml|16f45a1a2c1428333af539e12478288826bf0c00
 
-# Fingerprint sensor - from clover - OPM1.171019.019.V10.3.2.0.ODJCNXM
-vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
-vendor/app/QFingerprintService/QFingerprintService.apk
-vendor/bin/qfp-daemon;DISABLE_CHECKELF
+# Fingerprint sensor - from clover-user 8.1.0 OPM1.171019.019 9.8.29 release-keys
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/framework/com.fingerprints.extension.jar
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so;DISABLE_CHECKELF
-vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so;DISABLE_CHECKELF
-vendor/lib64/libqfp-service.so;DISABLE_CHECKELF
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so;DISABLE_CHECKELF
+vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
