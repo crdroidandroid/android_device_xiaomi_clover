@@ -94,11 +94,6 @@ on boot
     setprop persist.sys.exif.model "Mi PAD 4"
 
 on post-fs-data
-    mkdir /persist/qti_fp 0700 system system
-    mkdir /mnt/vendor/persist/fpc 0770 system system	
-    copy /data/vendor/fpc/user.db /data/vendor_de/0/fpdata/user.db	
-    chown system system /data/vendor_de/0/fpdata/user.db	
-
     #Create directories for Fingerprint
     mkdir /data/vendor/misc/qti_fp 0770 system system
     mkdir /data/vendor/misc/qti_fp/bg_estimation 0770 system system
